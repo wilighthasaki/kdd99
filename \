@@ -1,0 +1,36 @@
+import tensorflow as tf
+import numpy as np
+
+
+class CNN(object):
+    '''
+    这是用来进行特征提取并分类的CNN网络，网络结构在另外一个文件中描述。
+    '''
+    def __init__(self):
+        '''
+        这是网络的整体流程，包括输入，CNN网络，分类
+        '''
+        pass
+
+    def _main_network(self):
+        '''
+        这是主要的网络结构
+        '''
+        pass
+
+    def _classify(self):
+        '''
+        这是用来对提取过后的特征进行分类的部分
+        '''
+
+    def train(self):
+        '''
+        这个函数用来对网络进行训练
+        '''
+        pass
+
+    def test(self):
+        '''
+        这个函数用来对网络进行测试
+        '''
+        pass
